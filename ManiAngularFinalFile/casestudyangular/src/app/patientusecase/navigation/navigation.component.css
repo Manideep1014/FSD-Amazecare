@@ -1,0 +1,35 @@
+/* Custom CSS for the Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  width: 40px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff6347; /* Tomato color on hover */
+}
+
+.nav-item.active .nav-link {
+  color: #ff6347; /* Tomato color for active link */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+}

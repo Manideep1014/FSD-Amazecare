@@ -1,0 +1,73 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Image styling */
+.img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+/* Content box styling */
+.content-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings styling */
+h2 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-box {
+    padding: 20px;
+  }
+
+  .img-fluid {
+    max-height: 300px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .content-box {
+    padding: 15px;
+  }
+
+  .img-fluid {
+    max-height: 250px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
